@@ -18,9 +18,8 @@ This project pulls real StatsCan data and turns it into something you can actual
 
 The starting point. Shows the national price trajectory for the core grocery basket (Beef stewing cuts, Milk, Eggs, White bread) from 2017 to today. Switch the province filter and the whole page reacts — the right chart immediately splits into your local trend vs. the national average so you can see if your region is ahead or behind.
 
-![Overview - National View](Overveiw_01.png)
-![Overview - Manitoba Filter](Overveiw_02.png)
-
+![Overview - National View](Screenshoots/Overveiw_01.png)
+![Overview - National View](Screenshoots/Overveiw_02.png)
 **What the numbers show:**
 - The core basket went from **$29.79** in 2017 to **$48.52** nationally — a **$18.73 increase (+62.87%)**
 - Manitoba sits at **$45.83** with a **64.44% inflation rate** — actually slightly above the national average in % terms even though its dollar price is lower
@@ -33,9 +32,8 @@ The starting point. Shows the national price trajectory for the core grocery bas
 
 A geographic breakdown. See which provinces are the most expensive for any given item or the full basket. Clicking a province highlights it on the map and shows its rank and local inflation rate.
 
-![Geo-Pulse - Bacon in British Columbia](Geo_01.png)
-![Geo-Pulse - Milk in Prince Edward Island](Geo_02.png)
-
+![Geo-Pulse - Bacon in British Columbia](Screenshoots/Geo_01.png)
+![Geo-Pulse - Bacon in British Columbia](Screenshoots/Geo_02.png)
 **What stands out:**
 - For **bacon**, BC ranks **No. 2** at $8.29 — only Whitehorse is more expensive at $8.82. Ontario is the cheapest at $6.81
 - For **milk**, PEI ranks **No. 1** at $5.54. The cheapest province for milk is Manitoba at $4.26 — a $1.28 gap for something people buy every week
@@ -48,7 +46,7 @@ A geographic breakdown. See which provinces are the most expensive for any given
 
 Pick any grocery items you actually buy, set how many times a month you shop, and see what your bill looks like — now vs. 2017. The shopping receipt on the right updates live.
 
-![Bill Simulator - Ontario, Multiple Items](Sim_01.png)
+![Bill Simulator - Ontario, Multiple Items](Screenshoots/Sim_01.png)
 
 **Real example from the dashboard:**
 - A basket of ~14 common items in **Ontario**, bought **6 times a month**, costs **$471.59 today** vs. **$302.94 in 2017**
@@ -62,7 +60,7 @@ Pick any grocery items you actually buy, set how many times a month you shop, an
 
 Projects prices forward to 2030 using current trend data. Select a year and quarter to see the expected price and how far it is from where things stand today.
 
-![Bill Forecaster - Butter in Ontario, 2030](forcaster_01.png)
+![Bill Forecaster - Butter in Ontario, 2030](Screenshoots/forcaster_01.png)
 
 **What the projections show:**
 - **Butter in Ontario** at Q1 2030: expected to reach **$118.39** from today's **$101.62** — a **$16.77 gap**
